@@ -9,8 +9,7 @@ export class InMemoryDatabase implements InMemoryDbService {
             { id: 2, name: 'Saúde', description: 'Plano de Saúde e Remédios' },
             { id: 3, name: 'Lazer', description: 'Cinema, Parques, praia, etc' },
             { id: 4, name: 'Salário', description: 'Recebimento de Salário' },
-            { id: 5, name: 'Freelas', description: 'Trabalhos como Freelancer' },
-            { id: 2, name: 'dfaghdfas', description: 'duasidias' }
+            { id: 5, name: 'Freelas', description: 'Trabalhos como Freelancer' }
         ];
 
         return { categories }
